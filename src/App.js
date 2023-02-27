@@ -42,20 +42,17 @@ function App() {
    setNotes(newNotes)
   }
   const [readFile, setReadFile] = useState("")
-  const [fontSize1, fontSize2, fontSize3, bold, italics, underline, setFontSize] = useState(false)
+
   return(
     <>
       <div className='container'>
         <Header/>
-        <div className={(`${fontSize1 && "size1"}`,
-        `${fontSize2 && "size2"}`, `${fontSize3 && "size3"}`,
-        `${bold && "format1"}`, `${italics && "format2"}`, 
-        `${underline && "format3"}`)}>
+        <div>
           <NoteComponent notes={notes} 
           handleUpdateNote={updateNote}
           handleDelNote={delNote} 
           handleReadFile={readFile}
-          handleFontSize={setFontSize}/>
+          />
         </div>
       </div>
    
