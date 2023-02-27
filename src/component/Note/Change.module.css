@@ -47,3 +47,6 @@ textarea:focus{
 .date:hover{
     box-shadow: 1px solid skyblue;
 }
+.btn{
+    margin-right: 2px;
+}
