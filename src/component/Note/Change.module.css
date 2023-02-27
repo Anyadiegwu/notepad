@@ -1,0 +1,49 @@
+.notebook{
+    background-color: rgb(36, 110, 110);
+    color: white;
+    max-width: 250px;
+    min-height: 170px;
+    padding: 1rem 1rem 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.5em;
+    white-space: pre-wrap;
+}
+#new{
+    background-color: yellowgreen;
+}
+textarea{
+    border: none;
+    resize: none;
+    background-color: yellowgreen;
+}
+textarea:focus{
+    outline: none;
+}
+.save{
+    background-color: rgb(203, 193, 193);
+    border-radius: 1em;
+    border: none;
+    padding: 4px 8px;
+    font-weight: 500;
+    color: solid black;
+}
+.save:hover{
+    background-color: rgb(213, 160, 160);
+    cursor: pointer;
+    transform: scale(1.1) ;
+}
+.datetag{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.date{
+    cursor: pointer;
+    
+}
+.date:hover{
+    box-shadow: 1px solid skyblue;
+}
